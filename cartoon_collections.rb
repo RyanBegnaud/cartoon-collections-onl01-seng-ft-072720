@@ -9,7 +9,7 @@ end
 
 def long_planeteer_calls(words)
   new_arr = []
-  words.any {|word| word.length > 4} 
+  words.any? {|word| word.length > 4} 
     
   
 
