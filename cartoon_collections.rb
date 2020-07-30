@@ -21,8 +21,6 @@ def find_the_cheese(array)
     return "camembert"
   else 
     return nil
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
 end
 end
 end
