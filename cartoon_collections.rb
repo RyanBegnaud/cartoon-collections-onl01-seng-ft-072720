@@ -9,7 +9,7 @@ end
 
 def long_planeteer_calls(words)
   new_arr = []
-  words.map do |word|
+  words.find do |word|
   
   end
 end
