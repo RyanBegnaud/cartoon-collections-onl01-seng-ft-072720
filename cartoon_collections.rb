@@ -11,9 +11,9 @@ def long_planeteer_calls(words)
   new_arr = []
   words.find  do |word| 
     if word.length > 4
-      true
+      new_arr << true
     else 
-      false 
+      new_arr << false 
   
 end
 end
