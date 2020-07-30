@@ -21,7 +21,6 @@ def find_the_cheese(array)
     return "camembert"
   else 
     return nil
-end
-end
+    end
 end
 end
