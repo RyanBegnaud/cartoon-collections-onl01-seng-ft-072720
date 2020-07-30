@@ -1,4 +1,6 @@
-def roll_call_dwarves
+def roll_call_dwarves(array)
+  array.each_with_index do |name|
+    puts name
   
   # code an argument here
   # Your code here
