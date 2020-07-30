@@ -9,13 +9,10 @@ end
 
 def long_planeteer_calls(words)
   new_arr = []
-  words.map  do |word| 
-    if word.length > 4
-      new_arr << true
-    else 
-      new_arr << false 
+  words.any {|word| word.length > 4} 
+    
   
-end
+
 end
 end
 
